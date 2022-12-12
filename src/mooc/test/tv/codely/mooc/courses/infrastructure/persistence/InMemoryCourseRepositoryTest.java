@@ -11,7 +11,7 @@ import java.util.Optional;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
-final class InMemoryCourseRepositoryShould extends CoursesModuleInfrastructureTestCase {
+final class InMemoryCourseRepositoryTest extends CoursesModuleInfrastructureTestCase {
     @Test
     void save_a_course() {
         Course course = CourseMother.random();
